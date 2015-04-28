@@ -1,0 +1,30 @@
+{
+  "name": "@lostmyname/modal",
+  "version": "0.1.0",
+  "description": "The modal used on the lmn website",
+  "main": "src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lostmyname/modal"
+  },
+  "keywords": [
+    "modal"
+  ],
+  "author": "Callum Macrae <callum@macr.ae>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lostmyname/modal/issues"
+  },
+  "homepage": "https://github.com/lostmyname/modal",
+  "devDependencies": {
+    "browser-sync": "^2.6.5",
+    "gulp": "^3.8.11",
+    "lmn-gulp-tasks": "^1.3.7"
+  },
+  "dependencies": {
+    "jquery": "*"
+  }
+}

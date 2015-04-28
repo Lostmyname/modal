@@ -1,0 +1,26 @@
+.lmn-modal-bg {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 40;
+
+	display: none;
+	width: 100%;
+	height: 100%;
+
+	background: rgba(0, 0, 0, 0.2);
+}
+
+.lmn-modal {
+	position: fixed;
+	top: 150px;
+	left: 20%;
+	z-index: 41;
+
+	display: none;
+	width: 60%;
+	padding: 10px 15px;
+
+	background-color: white;
+	border-radius: 4px;
+}
