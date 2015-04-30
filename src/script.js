@@ -43,6 +43,11 @@ modal._createModal = function createModal() {
 		modal.close();
 	});
 
+	$(document).on('click', '[data-close-modal]', function (e) {
+		e.preventDefault();
+		modal.close();
+	});
+
 	$(document).on('keydown', function (e) {
 		if (e.keyCode === ESCAPE_KEY && modalOpen) {
 			e.preventDefault();
